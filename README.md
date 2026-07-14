@@ -25,5 +25,11 @@ SELECT, WHERE, GROUP BY, ORDER BY, joins and Common Table Expressions (CTEs)
 - Github
   1. For Portfolio Building
 
-### Data Cleaning And Preparations
+### Data Cleaning And Preparation
 ---
+| Issue Identified | Action Taken | Tool Used |
+| :--- | :--- | :--- |
+| **Duplicates** | Checked the dataset for duplicate records and verified that no duplicates were present. | Excel/SQL |
+| **Missing Values** | Checked the dataset for missing values and confirmed there were no null values requiring treatment. | Excel/SQL |
+| **Data Types** | Verified that numerical and categorical columns were stored in the correct data types for analysis. | SQL |
+| **Standardization** | Converted all 'Medical Condition' strings to Title Case for consistency. | Power Query |
