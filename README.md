@@ -13,3 +13,17 @@ This publicly available dataset contains information on individuals demographics
 
 ### Tools Used
 ---
+- Microsoft Excel [Download here](https://www.microsoft.com)
+  1. For Data Cleaning
+  2. For Analysis
+  3. For Data Visulization
+- SQL - Structured Query Language
+  1. For querying of Data using SQL statements such as;
+SELECT, WHERE, GROUP BY, ORDER BY, joins and Common Table Expressions (CTEs)
+- Power BI
+  1. Used to build an interactive dashboards with charts, KPIs and slicers for data visualization and to gain actionable insights into health insurance charges and related factors.
+- Github
+  1. For Portfolio Building
+
+### Data Cleaning And Preparations
+---
