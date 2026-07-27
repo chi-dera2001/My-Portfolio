@@ -31,5 +31,7 @@ SELECT, WHERE, GROUP BY, ORDER BY, joins and Common Table Expressions (CTEs)
 | :--- | :--- | :--- |
 | **Duplicates** | Checked the dataset for duplicate records and verified that no duplicates were present. | Excel/SQL |
 | **Missing Values** | Checked the dataset for missing values and confirmed there were no null values requiring treatment. | Excel/SQL |
-| **Data Types** | Verified that numerical and categorical columns were stored in the correct data types for analysis. | SQL |
-| **Standardization** | Converted all 'Medical Condition' strings to Title Case for consistency. | Power Query |
+| **Data Types** | Verified that all numerical and categorical columns were stored in the correct data types for analysis. | SQL |
+| **Data Consistency** | Reviewed values in columns such as sex, smoker, and region to ensure consistent foematting and spelling. | Excel |
+| **Data Validation** | Validated that values for age, BMI, number of children, and insurance charges fell within expected ranges to ensure data quality. | Excel |
+
