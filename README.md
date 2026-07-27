@@ -23,7 +23,7 @@ SELECT, WHERE, GROUP BY, ORDER BY, joins and Common Table Expressions (CTEs)
 - Power BI
   1. Used to build an interactive dashboards with charts, KPIs and slicers for data visualization and to gain actionable insights into health insurance charges and related factors.
 - Github
-  1. For Portfolio Building
+  1. Used to host and showcase the project portfolio
 
 ### Data Cleaning And Preparation
 ---
@@ -32,6 +32,24 @@ SELECT, WHERE, GROUP BY, ORDER BY, joins and Common Table Expressions (CTEs)
 | **Duplicates** | Checked the dataset for duplicate records and verified that no duplicates were present. | Excel/SQL |
 | **Missing Values** | Checked the dataset for missing values and confirmed there were no null values requiring treatment. | Excel/SQL |
 | **Data Types** | Verified that all numerical and categorical columns were stored in the correct data types for analysis. | SQL |
-| **Data Consistency** | Reviewed values in columns such as sex, smoker, and region to ensure consistent foematting and spelling. | Excel |
+| **Data Consistency** | Reviewed values in columns such as gender, and region to ensure consistent foematting and spelling. | Excel |
 | **Data Validation** | Validated that values for age, BMI, number of children, and insurance charges fell within expected ranges to ensure data quality. | Excel |
 
+### Exploratory Data Analysis
+---
+EDA was conducted to examine the dataset, identify patterns, uncover relationships betweeen variables, and answer key business questions related to health insurance charges.
+The analysis addressed the following questions:
+1. Which age bracket has the highest average insurance expenses
+2. Does BMI affect insurance expense?
+3. Which region has the highest average premium
+4. Does discount eligibility reduce premium amounts?
+5. Which gender spends more on medical insurance on average
+6. What is the distribution of customers across age brackets
+7. Find top 3 highest spending customers within each age bracket
+8. Rank regions by total insurance expenses
+9. What percentage of customers are discount eligible
+10. Identify customers whose expenses are more than 50% above their age bracket average
+
+### Data Analysis
+---
+The analysis was performed using SQL to amswer the key business questions identified during the exploratory data analysis. Queries were written to aggregate data, calculate averages, rank records, and identify trends. Power BI DAX measures were also created to support interactive visualizations and key performance indicators (KPIs)
