@@ -53,3 +53,31 @@ The analysis addressed the following questions:
 ### Data Analysis
 ---
 The analysis was performed using SQL to amswer the key business questions identified during the exploratory data analysis. Queries were written to aggregate data, calculate averages, rank records, and identify trends. Power BI DAX measures were also created to support interactive visualizations and key performance indicators (KPIs)
+```SQL
+-- Rank regions by total expense
+select sum(Expenses) Total_expenses, Region from [dbo].[Health Insurance Data Analysis]
+group by Region
+order by Total_expenses desc
+
+-- Top 3 highest spending customers in each age bracket
+with RankedCustomers as (
+select *, Row_Number() over ( partition by Age_Bracket
+order by Expenses desc ) as RowNum from [dbo].[Health Insurance Data Analysis] )
+select * from RankedCustomers
+where RowNum <=3
+
+-- Customers whose expenses are 50% above age bracket
+with AgeBracketAverage as ( select *, avg(Expenses) over (
+partition by Age_Bracket ) as Avg_AgeBracket_Expense from [dbo].[Health Insurance Data Analysis] )
+select * from AgeBracketAverage
+where Expenses > Avg_AgeBracket_Expense * 1.5
+
+-- Percentage of customers eligible for discount
+select 
+(
+count(case when Discount_Eligibility = 1 then 1 end) * 100.0/ count(*)
+) Discount_percentage from [dbo].[Health Insurance Data Analysis]
+```
+
+### Data Visulization
+
