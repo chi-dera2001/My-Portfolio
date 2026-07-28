@@ -80,11 +80,15 @@ count(case when Discount_Eligibility = 1 then 1 end) * 100.0/ count(*)
 ```
 
 ### Data Visulization
+---
 <img width="2000" height="1156" alt="image" src="https://github.com/user-attachments/assets/b9b55eef-bb6d-435c-942c-f4abc5e834c3" />
 
-![Bar chartt](https://github.com/chi-dera2001/My-Portfolio/blob/main/Bar%20chartt.png?raw=true)
-![average_of_expenses](https://github.com/chi-dera2001/My-Portfolio/blob/main/average_of_expenses.png?raw=true)
+![Bar chartt](https://github.com/chi-dera2001/My-Portfolio/blob/main/Bar%20chartt.png?raw=true) 
 
-### Key Insights
+### Conclusion
+---
+This project demonstrates my ability to clean, analyze, and visualize data using Excel, SQL Server, Power BI, and GitHub. The insights generated can help insurance providers understand customer spending patterns and make data-driven decisions.
+
+
 
 
