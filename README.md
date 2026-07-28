@@ -81,3 +81,4 @@ count(case when Discount_Eligibility = 1 then 1 end) * 100.0/ count(*)
 
 ### Data Visulization
 
+![average_of_expenses](https://github.com/chi-dera2001/My-Portfolio/blob/main/average_of_expenses.png?raw=true)
